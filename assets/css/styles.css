@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap');
+
+
+
+:root {
+
+    /* COLOR STYLE */
+    
+    --gray-2: #E6E6ED;
+    --white: #FFFFFF;
+    --black: #000;
+    --primayBlue : #0047FF;
+
+    /* FONT SIZE DESKTOP */
+    --header-1: 64px;
+    --header-2: 48px;
+    --header-3: 42px;
+    --header-4: 32px;
+
+
+    --text-medium: 24px;
+    --text-regular: 20px;
+    --text-light: 15px;
+
+    /* FONT WEIGHT */
+    --font-weight-extra-bold: 700;
+
+    --font-weight-bold: 700;
+    --font-weight-semi-bold: 600;
+    --font-weight-medium: 500;
+    --font-weight-regular: 400;
+    --font-weight-light: 300;
+}
+
+
+
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.btn{
+    padding: 15px 25px;
+border-radius: 6px;
+font-size: var(--text-medium);
+font-weight: var(--font-weight-medium);
+border: none;
+}
+
+.btn-primary{
+    background-color: var(--white);
+    border: none;
+}
+
+.btn-primary:focus{
+    background-color: var(--primayBlue);
+}
+
+.btn-primary:hover{
+    background-color: var(--gray-2);
+}
+
+
+/* navbar */
+
+.navbar{
+    font-family: 'Inter', sans-serif;
+    padding: 48px 0;
+}
+
+.navbar-brand img{
+    padding-right: 10px;
+    height: 80px;
+}
+
+.navbar-brand span {
+    font-size: var(--text-medium);
+    font-weight: var(--font-weight-bold);
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    display: inline;
+    padding-top: 15px;
+}
+
+a.nav-link {
+    margin-right: 70px;
+    font-size: var(--text-regular);
+    font-weight: var(--font-weight-medium);
+    color: var(--white) !important;
+}
+
+.navbar-brand{
+    margin-left: 100px;
+}
+
+
+/* Hero Section */
+
+.hero{
+    margin-top: 60px;
+    /* margin-left: 100px; */
+}
+
+.heroText{
+    
+    font-weight: var(--font-weight-bold);
+    font-size: 50px;
+    color: var(--white);
+}
+
+.masthead{
+    height: 100vh;
+    width: 100vw;
+   position: absolute;
+   background-size: cover;
+   top: 0;
+   left: 0;
+    z-index: -1;
+}
+
+.hero button{
+    color: var(--black);
+    font-size: var(--text-light);
+    font-weight: var(--font-weight-semi-bold);
+    font-family: 'inter', sans-serif;
+    border-radius: 1.5rem;
+    margin-top: 40px;
+}
+.hero button:hover{
+    color: black;
+}
+
+.hero button span{
+    margin-left: 15px;
+}
